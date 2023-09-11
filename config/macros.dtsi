@@ -4,12 +4,6 @@ label = "macro_showmacdesktops";
 #binding-cells = <0>;
 bindings = <&kp LCTRL>, <&kp UP_ARROW>;
 };
-macro_volume: macro_volume{
-compatible = "zmk,behavior-macro";
-label = "macro_volume";
-#binding-cells = <0>;
-bindings = ;
-};
 macro_windowspaste: macro_windowspaste{
 compatible = "zmk,behavior-macro";
 label = "macro_windowspaste";

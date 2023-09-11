@@ -2,25 +2,25 @@ macro_showmacdesktops: macro_showmacdesktops{
 compatible = "zmk,behavior-macro";
 label = "macro_showmacdesktops";
 #binding-cells = <0>;
-bindings = <&mt LCTRL UP>;
+bindings = <&kt LCTRL>, <&kp UP>;
 };
 macro_windowspaste: macro_windowspaste{
 compatible = "zmk,behavior-macro";
 label = "macro_windowspaste";
 #binding-cells = <0>;
-bindings = <&mt LCTRL V>;
+bindings = <&kt LCTRL>, <&kp V>;
 };
 macro_windowscut: macro_windowscut{
 compatible = "zmk,behavior-macro";
 label = "macro_windowscut";
 #binding-cells = <0>;
-bindings = <&mt LCTRL X>;
+bindings = <&kt LCTRL>, <&kp X>;
 };
 macro_selectline: macro_selectline{
 compatible = "zmk,behavior-macro";
 label = "macro_selectline";
 #binding-cells = <0>;
-bindings = <&kp HOME>, <&mt LEFT_SHIFT END>;
+bindings = <&kp HOME>, <&kt LSHIFT>, <&kp END>;
 };
 macro_quotes: macro_quotes{
 compatible = "zmk,behavior-macro";
